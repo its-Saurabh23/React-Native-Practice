@@ -18,7 +18,8 @@ const Home = () => {
   const[input,setInput]  = useState('');
   const dispatch  = useDispatch();
 
-
+ console.log('input',input);
+ 
   const handleInput = ()=>{
    if(input.trim()){
      Alert.alert("Food Added", `You added: ${input}`);

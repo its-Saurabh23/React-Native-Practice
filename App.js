@@ -7,7 +7,7 @@ import store from './Store'
 import Home from './Home';
 import FoodContainer from './FoodContainer';
 
-const Tab = createMaterialTopTabNavigator();
+const Tab = createMaterialTopTabNavigator();   
 
 const App = () => (
   <Provider  store= {store}>
